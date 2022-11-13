@@ -1,0 +1,236 @@
+:root{ 
+    --input-linear: linear-gradient(120deg, #E75590, #00c2cb);
+
+}
+
+body{ 
+    background: var(--input-linear);
+    margin: 0;
+    padding: 0;
+    background-repeat: repeat;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.title{     
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+    
+
+}
+.form{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.input_form{ 
+
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    width: 300px;
+    padding: 10px;
+
+    
+}
+.label{ 
+    display: block;
+    margin-bottom: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: small;
+}
+
+.button{ 
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.input_reset{ 
+    border-radius: 10px;
+    height: 60px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button_submit{ 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.main-class{ 
+    max-width: 1120px;
+    margin: auto;
+
+}
+
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+
+    
+}
+
+.back-button{ 
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.books{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+
+}
+
+.book{ 
+    width: 200px;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.book-image{ 
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+.book-title{ 
+    text-align: center;
+    color: white;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+.publish-book{ 
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+
+.publish-book-button{ 
+    display: flex;
+
+justify-content: center;    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+
+
+}
+
+.center-div{ 
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.input-flex{ 
+    display: flex;
+    gap: 50px;
+
+}
+
+.text-area-input{ 
+    border: none;
+    width: 80%;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.text-area-div{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text-area-div label{ 
+    display: block;
+}
+
+.text-area-container{ 
+    width: 100%;
+}
+
+.input_file{ 
+    display: none;
+
+}
+
+.input_style{ 
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    display: block;
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: small;
+
+    cursor: pointer;
+}
+
+.input-file-block{ 
+    margin-top: -13px;
+}
+
+.button-class-submit{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.book-image-description{ 
+    width: 350px;
+    height: 360px;
+
+    border-radius: 15px;
+
+}
